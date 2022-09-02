@@ -1,0 +1,396 @@
+#header {
+    border-top: solid 10px #53382c;
+    margin: 0%;
+}
+/* ====================================NAVBAR=========================================== */
+ul{
+  list-style: none;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+.navbar{
+        width: 100%;
+        height: 115px;
+        margin: 0 auto;
+        background-color: #b22830;
+}
+    /* ==============================LOGO========================================== */
+    .navbar-body{
+      width: 1200px;
+      padding: 0 20px;
+      margin: 0 auto;
+      height: 115px;
+      display: flex;
+      align-items: center;
+    }
+    .logo{
+      width: 17%;
+    }
+    .logo img{
+      width: 110px;
+      height: 84px;
+    }
+    .seach{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-top: 25px;
+    }
+    .seach input{
+      padding: 5px 10px;
+      margin-right: 20px;
+      width: 260px;
+      outline: none;
+      border: none;
+    }
+    .seach i{
+      font-size: 15px;
+      margin-left: -40px;
+      margin-right: 20px;
+    }
+    .seach img{
+      width: 33px;
+      height: 25px;
+      margin-left: 15px;
+    }
+    
+    .list-nav{
+      display: flex;
+      padding: 0;
+      margin: 0;
+      font-family: 'Aboreto';font-size: 22px;
+    }
+    .list-nav li{
+      padding: 10px 17px;
+      margin-right: 15px;
+    }
+    .list-nav li:hover{
+      background-color: #53382c;
+    }
+    .list-nav li:hover .sub-menu{
+      display: block;
+    }
+    .list-nav li a{
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-weight: 700;
+      font-family: none;
+    }
+    .nav-body-left{
+      display: flex;
+      width: 83%;
+      height: 115px;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .sub-menu{
+      position: absolute;
+      top: 108px;
+      background-color: #53382c;
+      display: none ;
+      right: 0;
+      left: 0;
+      padding: 0px 120px 15px;
+      z-index: 5;
+  }
+  .sub-menu-body{
+      display: flex;
+      width: 1360px;
+      margin: 0 auto;
+     
+      width: 103%;
+  }
+  .sub-items {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    align-items: center ;
+    font-family: 'Aboreto';font-size: 22px;
+}
+.sub-menu-body-left{
+    padding: 20px 0 10px;
+    width: 80%;
+    display: flex;
+
+}
+.sub-menu-body-left-top {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 25px;
+}
+.sub-menu-body-left .sub-link{
+    padding: 0;
+    font-size: 13px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 5px 0;
+    width: fit-content;
+}
+.sub-menu-body-left .sub-link b{
+    font-size: 16px;
+}
+.sub-menu-body-right{
+    width: 20%;
+}
+.sub-menu-body-right-content{
+    display: flex;
+    margin: 20px ;
+    flex-wrap: wrap;
+    width: 168px;
+    padding: 15px;
+    background-image: url(https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg);
+}
+.sub-menu-body-right-content-okconde{
+  display: flex;
+  margin: 20px ;
+  flex-wrap: wrap;
+  width: 195px;
+  padding: 15px;
+  background-image: url(https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg);
+}
+.sub-menu-body-right-content h4{
+  font-family: 'Aboreto';font-size: 22px;
+}
+/* ================================MEGA MENU===================================== */
+  
+.carousel-inner-item-img-finally{
+  width: 100%;
+}
+/* ==================================SEARCH ROLL================================================ */
+.navbar-div-searchroll{
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.navbar-div-searchroll-texbox{
+  padding-right: 60px;
+  padding-bottom: 2px;
+}
+.navbar-div-searchroll-kinhlup{
+    width: 8%;
+    position: relative;
+    left: 82%;
+    top: -20%;
+}
+/* ==================================KHÁM PHÁ THÊM================================================ */
+.item-khamphathem{
+    border-color: rgb(219, 29, 29);
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+  }
+.item-khamphathem{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 7px 59px;
+    border-radius: 5px;
+     left: 25%;
+    bottom: 15%;
+    z-index: 100;
+    position: absolute;
+  }
+  .item-khamphathem:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    border-color: rgb(255, 255, 255);
+  }
+  .item-khamphathem{
+    color: #ffffff;
+  }
+/* ==============================SỐNG ĐẬM CHẤT-KHÁM PHÁ THÊM================================================= */
+   .navbar-div-content-songdamchat-khamphathem{
+    display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-width: 1px;
+  border-style: solid;
+  padding: 7px 59px;
+  border-radius: 5px;
+  z-index: 100;
+  left: 63%;
+  top: 35.5%;
+  position: absolute;
+  border-color: rgb(243, 189, 122);
+  color: rgb(243, 189, 122);
+  background-color: transparent;
+  }
+.navbar-div-content-songdamchat-khamphathem:hover{
+  border-color: rgb(243, 189, 122);
+  color: rgb(51, 51, 51);
+  background-color: rgb(243, 189, 122);
+}
+.navbar-div-content-songdamchat-khamphathem{
+    color: rgb(243, 189, 122);
+}
+/* ===========================CONTENT-NGON TRÒN VỊ============================= */
+.navbar-div-content-ngontronvi-khamphathem{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px 59px;
+    border-radius: 5px;
+    z-index: 100;
+    left: 17%;
+    top: 56.1%;
+}
+.navbar-div-content-ngontronvi-khamphathem{
+    border-color: rgb(241, 188, 122);
+    color: rgb(241, 188, 122);
+    background-color: transparent;
+    position: absolute;
+}
+.navbar-div-content-ngontronvi-khamphathem:hover{
+  border-color: rgb(241, 188, 122);
+  color: rgb(255, 255, 255);
+  background-color:rgb(241, 188, 122);
+}
+img{
+  width: 100%;
+}
+/* ==========================NAVBAR-DIV-DIACHIVATINTUC================================ */
+.navbar-content-diachi-tintuc{
+  display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    width: 100%;
+    height: 50%;
+}
+
+.navbar-div-left{
+  background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg);
+  width: 50%;
+    padding: 55px 15px 45px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hamcamap{
+  margin-left: 70%;
+  color: #ffffff;
+  margin-top: 8% ;
+  font-size: 29px;
+}
+#hamcamap-chitiet{
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 60%;
+}
+#huynhtanphat{
+color: #ffffff;
+margin-top: 8%;
+font-size: 29px;
+padding-top: 50%;
+}
+#huynhtanphat-chitiet{
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 70%;
+
+  
+}
+.navbar-div-right{
+ background-image:url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg);
+ width: 50%;
+    padding: 55px 15px 45px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quanmoi{
+  display: block;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Aclonica';
+    font-weight: normal !important;
+    white-space: nowrap;
+    color: #ffffff;
+    position: relative;
+    left: 43%;
+    top: 35%;
+}
+/* ===================================NAVBAR-CONTENT-CONTACT================================================ */
+.navbar-content-contact{
+  width: 100%;
+  height: 60px;
+  background-color: #53382c;
+}
+.navbar-content-contact .facebook{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+    left: 10%;
+    bottom: 15px;
+    display: inline-block;
+    align-content: center;
+}
+.navbar-content-contact .youtube{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+    left: 12%;
+    bottom: 15px;
+    display: inline-block;
+    align-content: center;
+}
+.navbar-content-contact .instagram{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+    left: 14%;
+    bottom: 15px;
+    display: inline-block;
+    align-content: center;
+}
+.navbar-content-contact li{
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  position: relative;
+  bottom: 70px;
+  left: 50px ;
+  display: inline-block;
+  margin-bottom: 20px;
+  list-style: none;
+}
+.navbar-content-contact ul li {
+  display: flex;
+  display: inline-block;
+}
+.menu ul li{
+  display: flex;
+  display: inline-block;
+  position: relative;
+  padding-right: 30px;
+  top: 21px;
+  font-size: 15px;
+}
+.menu ul{
+  margin-left: 170px;
+}
